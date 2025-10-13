@@ -1,0 +1,10 @@
+h1{
+    background-color: black;
+    color: white;
+    display: inline;;
+}
+
+div{
+    color: blue;
+    padding: 10px;
+}
