@@ -1,0 +1,24 @@
+html,body{
+    height : 100%;
+
+    /* display : flex 
+    justify-content : space-between : 주축 (가로 ) 정렬
+    align-items: center : 교차축 (세로 정렬) */
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+div{
+    width : 200px;
+    height: 200px;
+    background-color: tomato;
+}
+
+#second{
+    background-color: aquamarine;
+}
+

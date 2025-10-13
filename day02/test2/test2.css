@@ -1,0 +1,15 @@
+h1 {
+    background-color: rgb(20, 20, 163);
+    color: white;
+    display: inline;
+}
+
+div {
+    width: 600px;
+    margin: auto;
+}
+
+span.bold {
+    font-weight: bold;
+    color: red;
+}

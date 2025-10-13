@@ -1,0 +1,27 @@
+/* --- 너비가 1280px 이하인 화면은 배경이 tomato이고 
+아닌 화면은 green --- */
+
+@media (max-width: 1280px) {
+    body {
+        background-color: tomato;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: aquamarine;
+    }
+}
+
+
+h1{
+    border-bottom: 2px dotted black;
+    padding : 10px;
+}
+
+span{
+    border : 3px dotted red;
+    display: inline;
+    padding : 5px;
+}
+
