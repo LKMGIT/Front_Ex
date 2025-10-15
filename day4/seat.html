@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>좌석 배치 프로그램</h1>
+</body>
+</html>
+<script>
+    let count = parseInt(prompt("입장인원은 몇명 입니까? "));
+    let lineNum = parseInt(prompt("한 줄에 몇명씩 앉을 수 있습니까?"));
+
+    if(count % lineNum != 0){    
+        let result = parseInt(count / lineNum) + 1;
+        document.write("필요한 줄 수는 " + result + "줄 입니다.");
+    } else {
+        let result = parseInt(count / lineNum);
+        document.write("필요한 줄 수는 " + result + "줄 입니다.");
+    }
+</script>
