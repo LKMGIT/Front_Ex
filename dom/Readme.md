@@ -6,6 +6,7 @@ document.querySelector('선택자')
 documnet.getElementById('id명');
 ```
 
-innerHTML => 문서 객체 내부의 문자를 조작할때 사용하는 속성 
-            태그가 적용 되어 있으면 태그 적용 된 결과로 나옴
-textContent => '' 안에 있는 문자를 그대로 출력 
+웹 요소의 내용을 가져올 경우에는 **innerText**, **textContent**를 사용
+웹 브라우저 창에 표시되지 않은 내용까지 모두 가져오려면 **textContent**
+태그 까지 가져오려면 **innerHTML**
+
